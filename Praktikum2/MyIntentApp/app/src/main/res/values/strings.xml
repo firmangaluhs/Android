@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+
+    <string name="move">Move Activity</string>
+    <string name="move_data">Move Activity With Data</string>
+    <string name="call">Panggilan</string>
+    <string name="web_ittp">web ittp</string>
+    <string name="intent_explicit">intent explicit</string>
+    <string name="activity_data2">Activity Data2</string>
+    <string name="activity_main1">Activity Main1</string>
+    <string name="go">GO</string>
+</resources>

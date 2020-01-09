@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/vertical_activity"
+    android:layout_marginRight="@dimen/horizontal_activity"
+    android:layout_marginBottom="@dimen/vertical_activity"
+    android:layout_marginLeft="@dimen/horizontal_activity"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_activity"
+        android:text="@string/move"/>
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_activity"
+        android:text="@string/move_data" />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_activity"
+        android:text="@string/call"/>
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_activity"
+        android:text="@string/web_ittp"/>
+    <Button
+        android:id="@+id/btnInputData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_activity"
+        android:text="@string/intent_explicit"/>
+
+
+
+
+
+</LinearLayout>
